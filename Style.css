@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f78ca0, #f9748f, #fd868c);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .resume-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    border: 4px solid #fd868c;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .resume-container:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    font-size: 26px;
+    color: #fff;
+    background-color: #f9748f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .form-group {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    color: #f78ca0;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #fd868c;
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .form-group input:hover,
+  .form-group textarea:hover {
+    background-color: #fdf2f3;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #f78ca0;
+    outline: none;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background: linear-gradient(to right, #f78ca0, #fd868c);
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background: #f9748f;
+  }
+  
+  /* Section Layout */
+  .personal-info,
+  .education,
+  .skills,
+  .work-experience {
+    margin-bottom: 40px;
+  }
+  
+ 
+  
